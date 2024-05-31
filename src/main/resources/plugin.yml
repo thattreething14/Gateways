@@ -1,0 +1,10 @@
+name: Gateways
+version: '${version}'
+main: tree.gateways.GatewaysPlugin
+api-version: '1.20'
+depend:
+  - Modelib
+commands:
+  gateway:
+    description: cum
+    aliases: [gw]
